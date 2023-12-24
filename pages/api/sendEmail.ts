@@ -9,8 +9,8 @@ export default async function SendEmail(req: NextApiRequest, res: NextApiRespons
   const referer = req.headers.referer;
 
   const content = {
-    to: ['contact@bstefanski.com'],
-    from: 'contact@bstefanski.com',
+    to: ['contact@tradevista.com'],
+    from: 'contact@tradevista.com',
     subject: subject,
     text: description,
     html: `<div>
@@ -21,8 +21,8 @@ export default async function SendEmail(req: NextApiRequest, res: NextApiRespons
   };
 
   try {
-    await sgMail.send(content);
-    res.status(204).end();
+    // await sgMail.send(content);
+    res.status(204).send('successfully sent mail');
   } catch (error) {
     console.log('ERROR', error);
     res.status(400).send({ message: error });

@@ -15,11 +15,12 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Trade Limitlessly, Simplified with One Broker</CustomOverTitle>
+        <Heading>One broker, countless trading opportunities</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Unlock a world of diverse trading possibilities with our platform. Experience seamless transactions, robust analytics, and
+          real-time insights. Your gateway to a wealth of opportunities in a single, intuitive platform. Start maximizing your potential
+          today.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>

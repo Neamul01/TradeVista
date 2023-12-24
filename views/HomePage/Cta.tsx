@@ -13,11 +13,11 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Innovative Features Redefining Trading Excellence</OverTitle>
+          <SectionTitle>Unleash the Power of Cutting-Edge Tools</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Experience unparalleled efficiency with our advanced tools. Streamline your trading journey and seize opportunities with
+            state-of-the-art features designed for success.
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>

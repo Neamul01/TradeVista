@@ -68,7 +68,7 @@ export default function Navbar({ items }: NavbarProps) {
     <NavbarContainer hidden={isNavbarHidden} transparent={isTransparent}>
       <Content>
         <NextLink href="/" passHref>
-          <LogoWrapper>{/* <Logo /> */}Saas</LogoWrapper>
+          <LogoWrapper>{/* <Logo /> */}TradeVista</LogoWrapper>
         </NextLink>
         <NavItemList>
           {items.map((singleItem) => (

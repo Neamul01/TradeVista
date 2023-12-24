@@ -6,33 +6,26 @@ export default function FaqSection() {
   return (
     <Wrapper>
       <SectionTitle>Frequently asked question</SectionTitle>
-      <Accordion title="Eiusmod eu laboris qui minim incididunt et id in elit veniam Lorem nulla ullamco.">
-        Voluptate ad aliquip in adipisicing incididunt officia. Aliqua consectetur id commodo fugiat sunt dolor minim. Aliqua ut deserunt
-        sit irure tempor esse labore elit commodo pariatur in nisi minim culpa. Exercitation eu in mollit tempor cillum excepteur
-        adipisicing cillum do et dolor est deserunt dolor. Deserunt reprehenderit nulla commodo quis et consectetur deserunt ea eiusmod
-        reprehenderit aliqua. Cupidatat commodo do ad ullamco ad enim sint sint irure amet culpa. Consequat sit Lorem sint culpa.
+      <Accordion title="How do I subscribe to a TradeVista plan?">
+        Subscribing to a TradeVista plan is easy! Simply visit our website, choose the plan that suits your needs, and follow the
+        straightforward subscription process.
       </Accordion>
-      <Accordion title="Minim eiusmod aliquip in ea mollit fugiat ullamco veniam enim sint exercitation.">
-        Lorem laboris ullamco labore consectetur duis amet excepteur esse labore sunt pariatur do aliqua amet. Enim exercitation labore
-        nostrud consectetur veniam eiusmod pariatur do commodo dolore pariatur amet veniam. Irure do et ut dolor quis reprehenderit anim
-        aute sint deserunt tempor sunt nostrud. Deserunt et aute non dolor.
+      <Accordion title="Can I upgrade or downgrade my plan at any time?">
+        Absolutely! You have the flexibility to upgrade or downgrade your plan at any time. Visit your account settings to make the desired
+        changes effortlessly.
       </Accordion>
-      <Accordion title="Commodo officia dolore anim occaecat.">
-        Enim ea cillum pariatur incididunt incididunt sunt ea exercitation nisi aliquip. Cillum deserunt ut esse Lorem non qui labore labore
-        eiusmod magna incididunt ut quis. Nulla excepteur adipisicing ipsum do non occaecat.
+      <Accordion title="Is there a trial period for the Premium Plan?">
+        Yes! We offer a 7-day free trial for the Premium Plan. Experience the full range of features before deciding on the plan that best
+        fits your trading requirements.
       </Accordion>
-      <Accordion title="Irure Lorem proident esse enim.">
-        Ipsum laboris sit minim occaecat nisi qui. Tempor eiusmod fugiat occaecat labore. Exercitation do cillum cillum laborum velit
-        laborum ea magna duis laborum in anim. Enim laboris dolore laboris consectetur enim duis deserunt consequat excepteur ipsum
-        excepteur. Non dolor magna et est cillum sint eiusmod sit eiusmod veniam id. Aliqua non non labore amet laborum fugiat ad nostrud ex
-        officia exercitation.
+      <Accordion title="What security measures are in place to protect my transactions?">
+        We prioritize the security of your transactions. TradeVista employs advanced encryption protocols and robust security measures to
+        ensure the confidentiality and integrity of your financial data.
       </Accordion>
-      <Accordion title="Ea quis consequat sunt sint aute pariatur aliquip minim voluptate.">
-        Sint eiusmod aute nulla ut esse sunt fugiat nulla exercitation duis pariatur. Magna anim incididunt magna id quis irure laborum sint
-        voluptate tempor esse elit dolore. Elit exercitation pariatur adipisicing aute. Nisi deserunt enim consequat anim adipisicing
-        laborum sint occaecat elit. Consequat officia cupidatat magna incididunt nisi in sunt duis reprehenderit ullamco in amet cillum.
-        Dolor nisi proident ipsum aute velit aliquip magna fugiat reprehenderit. Enim ex aliqua et velit exercitation reprehenderit veniam
-        do eu exercitation ad duis.
+      <Accordion title="How can TradeVista's AI-driven Analytics benefit my trading strategy?">
+        TradeVista&apos;s AI-driven Analytics leverages machine learning to analyze market trends, providing you with valuable insights for
+        strategic decision-making. This empowers you to make informed and data-driven trading decisions, enhancing your overall trading
+        strategy.
       </Accordion>
     </Wrapper>
   );

@@ -10,31 +10,31 @@ export default function PricingTablesSection() {
       <SectionTitle>Flexible pricing for agile teams</SectionTitle>
       <AutofitGrid>
         <PricingCard
-          title="free"
+          title="Explorer"
           description="Give us a try for free"
-          benefits={['1 seat', '1 active project', 'Ulimited viewers', '10 blocks']}
+          benefits={['Live Alerts', 'Smart Charts', 'Secure Transactions', '10 blocks']}
         >
           $0<span>/month</span>
         </PricingCard>
         <PricingCard
-          title="Starter"
+          title="Pioneer"
           description="Best for individual desginers"
-          benefits={['1 seat', '3 active project', 'Ulimited viewers', '100 blocks', 'CSV Downloader', 'Password protection']}
+          benefits={['Live Alerts', 'Smart Charts', 'Secure Transactions', 'Mobile Trading', 'AI-driven Analytics']}
           isOutlined
         >
           $29<span>/month</span>
         </PricingCard>
         <PricingCard
-          title="Premium"
+          title="Voyager"
           description="Get your team together"
           benefits={[
-            '10 seat',
-            '10 active project',
-            'Ulimited viewers',
-            'Unlimited blocks',
-            'CSV Downloader',
-            'Password protection',
-            'Customization',
+            'Live Alerts',
+            'Smart Charts',
+            'Secure Transactions',
+            'Mobile Trading',
+            'AI-driven Analytics',
+            'Automated Portfolio Management',
+            'Priority Customer Support',
           ]}
         >
           $79<span>/month</span>

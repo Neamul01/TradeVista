@@ -27,24 +27,26 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/corporate.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/corporate.svg" title="Secure Trading, Trusted Excellence" overTitle="Trusted Excellence in Trading">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Elevate your trading journey with us. Experience a seamless blend of reliability, innovation, and trust. Our commitment to
+              excellence ensures your investments are in secure hands. Embrace a trading partner you can rely on.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/corporate2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection
+            imageUrl="/corporate2.svg"
+            title="Guiding Your Success, Expert Consultancy"
+            overTitle="Empowering Your Trading Journey"
+            reversed
+          >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Empower your trading decisions with our seasoned consultants. Gain a competitive edge through personalized advice and
+              strategic insights. Elevate your trading experience with our commitment to your success.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Tailored guidance for success.</li>
+              <li>Expert insights for smart decisions.</li>
+              <li>Dedicated to maximizing potential.</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
@@ -53,7 +55,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <FeaturesGallery />
           <Features />
           <Testimonials />
-          <ScrollableBlogPosts posts={posts} />
+          {/* <ScrollableBlogPosts posts={posts} /> */}
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>

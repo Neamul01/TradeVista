@@ -7,58 +7,39 @@ import { media } from 'utils/media';
 
 const FEATURES = [
   {
-    imageUrl: '/grid-icons/asset-1.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+    imageUrl: '/grid-icons/asset-2.svg',
+    title: 'Live Alerts',
+    description: 'Instant notifications for timely market updates, ensuring you seize every trading opportunity with real-time insights."',
   },
   {
-    imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/grid-icons/asset-1.svg',
+    title: 'Smart Charts',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      'Effortlessly visualize market trends with interactive charts, empowering informed decision-making and strategic planning for optimal results.',
   },
   {
     imageUrl: '/grid-icons/asset-3.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Secure Transactions',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      'Advanced security protocols ensure every transaction is protected, providing peace of mind and safeguarding your valuable assets.',
   },
   {
     imageUrl: '/grid-icons/asset-4.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Mobile Trading',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      'Trade on the go with our user-friendly mobile app, offering seamless access to the markets for ultimate flexibility and convenience.',
   },
   {
     imageUrl: '/grid-icons/asset-5.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'AI-driven Analytics',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      'Harness the power of AI for in-depth market analysis, enabling data-driven insights that guide your trading strategy for improved outcomes.',
   },
   {
     imageUrl: '/grid-icons/asset-6.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Automated Portfolio Management',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-7.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-8.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-9.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      'Efficiently manage your portfolio with automation, optimizing asset allocation and ensuring a balanced and strategic investment approach for sustained growth.',
   },
 ];
 

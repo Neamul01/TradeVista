@@ -6,7 +6,10 @@ import InformationSection from 'views/ContactPage/InformationSection';
 
 export default function ContactPage() {
   return (
-    <Page title="Contact" description="Minim sint aliquip nostrud excepteur cupidatat amet do laborum exercitation cupidatat ea proident.">
+    <Page
+      title="Contact"
+      description="Questions or assistance needed? Contact us for prompt and friendly support. Your satisfaction is our priority at TradeVista."
+    >
       <ContactContainer>
         <InformationSection />
         <FormSection />
