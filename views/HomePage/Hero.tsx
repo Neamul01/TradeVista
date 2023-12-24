@@ -1,3 +1,4 @@
+import NextImage from 'next/image';
 import NextLink from 'next/link';
 import styled from 'styled-components';
 import Button from 'components/Button';
@@ -32,7 +33,8 @@ export default function Hero() {
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
-        <HeroIllustration />
+        {/* <HeroIllustration /> */}
+        <NextImage src={'/corporate1.svg'} alt={'main illustration'} width="1113.8" height="1025.71" objectFit="cover" />
       </ImageContainer>
     </HeroWrapper>
   );

@@ -68,9 +68,7 @@ export default function Navbar({ items }: NavbarProps) {
     <NavbarContainer hidden={isNavbarHidden} transparent={isTransparent}>
       <Content>
         <NextLink href="/" passHref>
-          <LogoWrapper>
-            <Logo />
-          </LogoWrapper>
+          <LogoWrapper>{/* <Logo /> */}Saas</LogoWrapper>
         </NextLink>
         <NavItemList>
           {items.map((singleItem) => (
@@ -132,6 +130,10 @@ const LogoWrapper = styled.a`
   display: flex;
   margin-right: auto;
   text-decoration: none;
+
+  // --for text
+  font-size: 3.5rem;
+  font-weight: 600;
 
   color: rgb(var(--logoColor));
 `;
